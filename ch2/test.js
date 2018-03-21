@@ -1,3 +1,3 @@
-const triangle = require('./triangle');
+const anything = require('./triangle');
 
-triangle();
+anything();
