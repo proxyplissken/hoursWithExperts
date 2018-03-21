@@ -1,0 +1,14 @@
+function reverseArray(input){
+  let output = [];
+
+  for (let i = input.length - 1; i >= 0; i--){
+    output.push(input[i])
+  }
+
+  return output;
+}
+
+
+console.log(reverseArray(["A", "B", "C"]));
+
+
