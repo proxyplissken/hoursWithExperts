@@ -8,7 +8,23 @@ function reverseArray(input){
   return output;
 }
 
-
 console.log(reverseArray(["A", "B", "C"]));
+
+
+function reverseInPlace(input){
+  for (let i = 0; i<input.length/2; i++){
+    let end = input.length - 1- i;
+
+    let temp = input[end];
+
+    input[end] = input[i];
+    input[i] = temp;
+  }
+
+  return input;
+}
+
+console.log(reverseInPlace(["A", "B", "C", "D", "E"]));
+
 
 
