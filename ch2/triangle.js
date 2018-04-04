@@ -7,5 +7,5 @@ function triangle() {
   }
 }
 
-module.exports = triangle;
+triangle();
 
